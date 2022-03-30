@@ -54,6 +54,7 @@ li{
 .maincont{
     grid-column-start: 1;
     grid-column-end: 3;
+    min-height: 800px;
 }
 .side1{
     /* margin:10px;
@@ -109,6 +110,13 @@ ul > li{
     bottom: 20px;
     left: 50%;
     display: block;
+}
+.buttonjavanumber{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 /* https://www.youtube.com/watch?v=Y9rHsdCxU8Q&ab_channel=dcode */
 /* https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified */
