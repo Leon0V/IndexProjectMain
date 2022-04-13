@@ -118,6 +118,19 @@ ul > li{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.resultadoRandom{
+    text-align: center;
+    justify-content: center;
+    width: 45%;
+    height:min-content;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    font-size: 12;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 /* https://www.youtube.com/watch?v=Y9rHsdCxU8Q&ab_channel=dcode */
 /* https://www.youtube.com/watch?v=fYq5PXgSsbE&ab_channel=WebDevSimplified */
 /* https://www.youtube.com/watch?v=jx5jmI0UlXU&ab_channel=WebDevSimplified */
