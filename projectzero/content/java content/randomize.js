@@ -64,9 +64,9 @@ function embaralharNumero(array) {
 // }
 
 function aleatorio(){
-    const bicatiri = criararray(10,100);
-    bicatiri.sort((a, b) => a - b);
-    const resultado = concatenar(bicatiri);
+    const meuArray = criararray(10,100);
+    meuArray.sort((a, b) => a - b);
+    const resultado = concatenar(meuArray);
     let paragrafo = document.getElementById('resultadoRandom');
     paragrafo.textContent = resultado;
 }
